@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: roboto, arial, sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100svh;
+  background-color: darkblue;
+}
+body .container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  border-radius: 20px;
+  height: 500px;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+body .container h1 {
+  font-weight: bold;
+}
+body .container div.QRCode {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+body .container input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+body .container button {
+  background-color: lightgrey;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
